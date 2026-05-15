@@ -1,0 +1,15 @@
+h1{
+    color:blue;
+    background-color:aqua;
+}
+
+body{
+    background-color:cornflowerblue;
+    background-image:url(love.JPG);
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+p{
+    color:black;
+}
