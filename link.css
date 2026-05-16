@@ -1,0 +1,21 @@
+a{
+    color:blueviolet;
+    text-decoration:none;
+    background-color:aquamarine;
+    font-size:200px;
+    padding:5px,15px;
+    border:5x solid blanchedalmond;
+
+}
+a:hover{
+    color:aqua;
+    background-color:black;
+
+}
+a:active{
+    color:yellowgreen;
+}
+a:visited{
+    color:blue;
+    background-color: brown;
+}
