@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    display:inline-block;
+}
+span{
+    display:block;
+    font-size:50px;
+
+}
+ul li{
+    display:inline;
+}
