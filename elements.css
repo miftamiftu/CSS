@@ -1,0 +1,19 @@
+a:hover{/*pheudoclss*/
+    color:black;
+    background-color:white;
+    font-size:200px;
+
+}
+h2:first-child{
+    color:red;
+}
+p::first-letter{
+    color:blue;
+    font-size:100px;
+
+
+}
+h1::before{
+    content:url(love.JPG);
+}
+
