@@ -1,0 +1,11 @@
+.img1{
+    width:400px;
+    float:left;
+}
+.img2{
+    width:400px;
+    float:right;
+}
+p{
+    clear:both;
+}
