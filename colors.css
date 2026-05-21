@@ -1,0 +1,20 @@
+h1{
+    font-size:50px;
+    color:blue;
+}
+h2{
+    font-size:30px;
+    color:rgb(255,0,255);
+}
+p{
+    font-size:20px;
+    color:#fff000;
+}
+.box{
+    height:400px;
+    width:400px;
+    /*background:linear-gradient(blue,aqua);
+    linear-gradient(to left top,rgba(255,0,0)
+    (45 deg)*/
+    background:radial-gradient(#e66465,#919835);
+}
