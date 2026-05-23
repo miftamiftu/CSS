@@ -1,0 +1,15 @@
+.social{
+    width:70px;
+    height:80px;
+    background-image:url(OIP.webp) ;
+    background-position:0-59px;
+    background-repeat:no-repeat;
+    border-radius:50%;
+transition: 1s;
+
+
+
+}
+.social:hover{
+background-position:0 -138px;
+}
