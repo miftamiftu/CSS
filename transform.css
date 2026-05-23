@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    font-size:100px;
+}
+.box{
+    height:400px;
+    width: 400px;
+    background-color:blue;
+    color:white;
+    margin:100px auto;
+    position:relative;
+    transform:translate(30px,200px);
+
+
+
+}
+.box h3{
+    text-align:center;
+    font size:100px;
+    font-family:Arial,helvetica,sans-serif;
+    position:relative;
+}
