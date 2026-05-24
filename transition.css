@@ -1,0 +1,19 @@
+.box{
+    width:500px;
+    height:500px;
+    background-color:blueviolet;
+    margin:100px auto;
+    transiton-property:all;
+    transition-delay:1s;
+    transition-duration:0.5s;
+    /*transition-timing-function:cubic-bezier(.87,.18,.24,.25);*/
+    transition-timing-function: linear;
+
+}
+.box:hover{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background-color: aquamarine;
+    transform:perspective(180);
+}
