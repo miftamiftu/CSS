@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #fff;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+  letter-spacing: 0.01em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header   header   header"
+    "nav      contents aside"
+    "footer   footer   footer";
+  gap: 10px;
+  width: 100%;
+}
+
+.grid-item {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+header {
+  grid-area: header;
+  background: #d4f5c4;
+  min-height: 80px;
+}
+
+nav {
+  grid-area: nav;
+  background: #ccd8f5;
+  min-height: 300px;
+}
+
+main {
+  grid-area: contents;
+  background: #dfc4f5;
+  min-height: 300px;
+}
+
+aside {
+  grid-area: aside;
+  background: #ccd8f5;
+  min-height: 300px;
+}
+
+footer {
+  grid-area: footer;
+  background: #d6d6d6;
+  min-height: 70px;
+}
